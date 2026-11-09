@@ -1,8 +1,8 @@
 class Tailcloak < Formula
-  desc "Toggle Tailscale based on trusted default-gateway MAC addresses (macOS)"
+  desc "Automate Tailscale state and exit node per network (macOS)"
   homepage "https://github.com/fabitosh/tailcloak"
-  url "https://github.com/fabitosh/tailcloak/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "e6a2205889f375f87ddec0ebbe4de7c2f63b77c291fbd20e440ed0b04934e884"
+  url "https://github.com/fabitosh/tailcloak/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "7b2dba66be577553050054403201457d72c48d16f1f2061b9b589a84c3d3f34b"
   license any_of: ["MIT", "Apache-2.0"]
   head "https://github.com/fabitosh/tailcloak.git", branch: "main"
 
